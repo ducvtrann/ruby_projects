@@ -144,9 +144,12 @@ class GhostGame
 end
 
 if $PROGRAM_NAME == __FILE__
+  # Add more players here
   game = GhostGame.new(
-    Player.new('Duc'),
-    Player.new('Jade')
+    Player.new('John'),
+    Player.new('Mike'),
+    Player.new('Christy'),
+    Player.new('Selena')
   )
   game.run
 end
